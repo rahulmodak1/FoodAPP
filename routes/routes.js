@@ -3,10 +3,12 @@ const cartSchema = require('../model/cartSchema');
 const router = express.Router();
 const itemSchema = require('../model/itemSchema')
 
+
 router.get('/items' , async(req , res) => {
-    const Products = await itemSchema.find({'subItemsData.name':{$elemMatch:{name : 'Tasty Pizza'}}});
+    const Products = await itemSchema.find();
     res.send(Products)
 })
+
 router.post('/cart/add' , async(req , res ) => {
 const result = await cartSchema.create({
     name : req.body.name ,
