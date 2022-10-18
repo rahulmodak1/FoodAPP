@@ -1,0 +1,9 @@
+.main-catg {
+    display: flex;
+    margin: 5rem auto;
+    justify-content: center;
+}
+
+.burger {
+    margin-left: 20px;
+}

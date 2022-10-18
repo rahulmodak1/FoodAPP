@@ -1,0 +1,36 @@
+.header {
+    background-color: rgb(172, 10, 10);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header p {
+    margin: auto;
+    text-align: center;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.header i {
+    margin-right: 30px;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+span {
+    position: relative;
+    left: -35px;
+    top: -13px;
+    color: black;
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 50px;
+    text-decoration: none;
+}
