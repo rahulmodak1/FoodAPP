@@ -5,7 +5,7 @@ import cartItemInc from '../Redux/action'
 import {useDispatch} from 'react-redux'
 
 
-function SubCatg({ title ,name , image , price , description })// getting props from the Products.js
+function SubCatg({ name , image , price , description })// getting props from the Products.js
 {
 const dispatch = useDispatch()
   const itemData = {

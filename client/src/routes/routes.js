@@ -5,7 +5,6 @@ import {Routes , Route} from 'react-router-dom'
 import SubProducts from '../components/subCatg/products'
 import Home from '../components/Home/home'
 import Cart from '../components/cart/cart'
-// import Pizza from '../components/subProducts/pizza'
 
 
 function RouterF() {

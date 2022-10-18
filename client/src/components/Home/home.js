@@ -1,7 +1,4 @@
 import React from 'react'
-import Card from 'react-bootstrap/Card';
-import Products from '../subCatg/products';
- import 'bootstrap/dist/css/bootstrap.min.css';
  import './home.css'
 import MainCatg from './mainCatg';
  

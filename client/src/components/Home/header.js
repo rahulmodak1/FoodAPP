@@ -7,12 +7,9 @@ import axios from 'axios'
 
 function Header() {
 const dispatch = useDispatch()
-  // const [cartCount , setCartCount] = useState([])
+
   const data = useSelector(state => state)
   console.log(data.cartItems)
-// useEffect(()=>{
-// // setCartCount(data)
-// }, [data])
 const getCart = async() => {
   const result = await axios.get('http://localhost:3002/cart')
 dispatch({type:'FETCH DATA' , payload : result.data});
