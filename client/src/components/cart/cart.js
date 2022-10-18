@@ -43,7 +43,7 @@ return <div key={i}>
                 <div className='left'>
                     <h3 className='title'>{element.name}</h3>
                     <p className='desc'>{element.description}</p>
-                    <p className='price'>Price : {element.price}</p>
+                    <p className='price'>Price : Rs. {element.price}</p>
                     <button onClick={()=>removeHandler(element._id , element)} >Remove</button>
                 </div>
                 <img src={element.image} alt={element.name}/>
